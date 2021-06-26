@@ -12,6 +12,7 @@ body {
 background-image: url(/img/body-bg.png);
 background-repeat: no-repeat;
 background-size: cover;
+background-attachment: fixed;
 }
 
 .card {
@@ -21,7 +22,7 @@ background-size: cover;
 
 /* Font and Text styles */
 .resname {  
-font-family: 'Playfair Display', serif;
+font-family: 'Dancing Script', cursive;
 font-size:7rem;
 text-align: center;
 position: absolute;
@@ -45,11 +46,12 @@ margin: 5%;
 }
 .titleimage {
 background-image: url(/img/Food-Background.jpg);
-background-color: #cccccc;
+border-radius: 50%;
 height: 60vh;
-background-position: center;
+background-position: center center;
 background-size: cover;
 position: relative;
+background-attachment: fixed;
 }
 .div p{
 text-align: center;
@@ -66,4 +68,7 @@ h4 {
 font-size: 2rem;
 font-family: 'Cinzel', serif;
 padding: 1rem;
+}
+.card-img-top {
+    border-radius: 50%;
 }

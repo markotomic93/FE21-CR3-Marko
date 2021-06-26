@@ -2,7 +2,7 @@
 // The parameters of the function should be starterPrice, maindishPrice, dessertPrice and beveragePrice.
 // The function will return the sum of these four parameters.
 
-// TASK 1 
+// TASK 1 /TASK 2
 
 function calculateInvoice(starter1, maindish1, dessert1, beverage1) {
     var result = starter1 + maindish1 + dessert1 + beverage1;
@@ -12,7 +12,7 @@ var endprice = calculateInvoice(1.99, 4.99, 2.49, 2.99)+ " € ";
 console.log(endprice);
 
 
-//Task 2
+//Didn't quite understand what was asked of us in Task 2 but i did it also this way:
 
 function invoice(FoodCanape, RoastedLamb, FruitCake, Fruitcocktail) {
     var FoodCanape = 1.99;
